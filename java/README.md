@@ -7,7 +7,7 @@ basic understanding of java.
 
 ## To-Do
 - [ ] Create script template/format
-        - [ ] Add Project Goals to template
+	- [ ] Add Project Goals to template
 - [ ] Upload **past** projects/assessments
 - [ ] Comments to explain process
 - [ ] Refactor and improve
