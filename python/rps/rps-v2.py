@@ -2,9 +2,11 @@
 import random 
 import time
 
-
+# Creates list of moves for computer
 moves = ["rock", "paper", "scissors"]
 
+
+# Get Player 1 input and check
 def player1():
     p1Move=None
     while (p1Move not in moves):
@@ -15,6 +17,8 @@ def player1():
             print("Player 1 entered", p1Move)
             return(p1Move)
 
+
+# Get Player 2 input and check
 def player2():
     p2Move=None
     while (p2Move not in moves):
@@ -25,12 +29,16 @@ def player2():
             print("Player 2 entered", p2Move)
             return(p2Move)
 
+# Random Computer Move
 def computerMove():
     return(random.choice(moves))
 
+# Print Winner
 def displayResult(winner):
     print(f"And the winner is...\n{winner}!")
 
+
+# Determine Winner
 def findWinner(p1, p2):
     if (p1 == p2):
         winner="it's a draw"
@@ -40,7 +48,7 @@ def findWinner(p1, p2):
         winner = "Player 2"
     return(winner)
 
-
+# Main Section - Ask about opponent.
 print("Rock... \nPaper... \nScissors...")
 opponent = None
 while (opponent != "0"):
