@@ -23,7 +23,7 @@ sizeCostDict = dict([('small', 5.50), ('regular', 15.00), ('party', 35.00)])
 # To increase options, extend here in same format.
 toppingCostDict = dict([('small', 2.00), ('regular', 4.50), ('party', 8.50)])
 
-# Discount Codes - Un-used but could be added to expand discount codes.
+# Discount Codes - added to expand discount codes.
 discountCodes = dict([('vip', 2.00), ('employee', 4.50), ('owner', 8.50)])
 
 # Stores List of all costs entered. Sumed at end.
