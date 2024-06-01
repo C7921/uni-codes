@@ -1,6 +1,0 @@
-This is a test file. Created on June 5.
-
-<<<<<<< HEAD
-test - 7 days ago
-=======
->>>>>>> 9dda677868deef95e3bd150d552bab10986e0b5d
