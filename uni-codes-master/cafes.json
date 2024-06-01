@@ -1,0 +1,20 @@
+[
+  {
+    "name": "ESC Cafe",
+    "location": "200m",
+    "rating": 4.9,
+    "isOpen": true,
+    "color": "teal",
+    "svgAsset": "assets/images/storyline-playing-video-games-and-solving-puzzle.svg",
+    "destination": "EscCard"
+  },
+  {
+    "name": "Library Cafe",
+    "location": "500m",
+    "rating": 4.5,
+    "isOpen": false,
+    "color": "orange",
+    "svgAsset": "assets/images/storyline-reading-books.svg",
+    "destination": "LibraryCard"
+  }
+]
